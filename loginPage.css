@@ -1,0 +1,117 @@
+#main {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0%;
+}
+
+html,
+body {
+    background-color: #9faef2;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h3 {
+    font-family: 'Syne', sans-serif;
+}
+
+#left,
+a {
+    background-color: #6488ea;
+    color: aliceblue;
+
+}
+
+input {
+
+    border: none;
+    border-radius: 5px;
+    background-color: #9faef2;
+    height: 50px;
+
+}
+
+#left,
+#right {
+    width: 50%;
+}
+
+#firstname,
+#lastname {
+    width: 45%;
+}
+
+h1 {
+    width: 6em;
+}
+
+button {
+    border: none;
+    height: 50px;
+    color: aliceblue;
+    background-color: #6488ea;
+    width: 75%;
+}
+
+form {
+    width: 75%;
+}
+
+::placeholder {
+    height: 100%;
+    font-weight: bolder;
+    font-size: smaller;
+    padding-left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #right {
+        width: 100%;
+    }
+
+    #left {
+        width: 100%;
+    }
+
+    #main {
+        background-color: #6488ea;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 10px;
+    }
+
+    #form-name {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #firstname,
+    #lastname {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    button {
+        width: 100%;
+    }
+}
+
+
+/* #33b249 5dbea3 9faef2 b8c1f5*/
