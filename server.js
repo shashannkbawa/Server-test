@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-
+const port = process.env.PORT || 3000;
 const sqlite3 = require('sqlite3').verbose();
 let sql;
 
@@ -64,6 +64,6 @@ app.get("/getSignIn", (req, res) => {
     res.sendFile(__dirname, "./loginPage");
 
 })
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Application started and Listening on port 3000");
 });
